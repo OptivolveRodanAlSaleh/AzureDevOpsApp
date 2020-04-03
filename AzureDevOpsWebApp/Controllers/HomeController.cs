@@ -20,6 +20,7 @@ namespace AzureDevOpsWebApp.Controllers
 
         public IActionResult Index()
         {
+            var x = "test";
             return View();
         }
 
